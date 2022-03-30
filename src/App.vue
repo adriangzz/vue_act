@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
-import TheWelcome from "./components/TheWelcome.vue";
 import Title from "./components/Title.vue";
+import Image from "./components/Image.vue";
+import HelloName from "./components/HelloName.vue";
+import Arrays from "./components/Arrays.vue";
+import Hide from "./components/Hide.vue";
 </script>
 
 <template>
@@ -11,6 +13,10 @@ import Title from "./components/Title.vue";
 
   <main>
     <Title title="Pets App" />
+    <Image />
+    <HelloName />
+    <Arrays />
+    <Hide />
   </main>
 </template>
 

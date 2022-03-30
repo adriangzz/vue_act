@@ -8,7 +8,10 @@ import Hide from "./components/Hide.vue";
 
 <template>
   <header>
-    <div class="wrapper"></div>
+    <div class="wrapper">
+      <a href="">Home</a>
+      <a href="">About</a>
+    </div>
   </header>
 
   <main>
@@ -25,5 +28,15 @@ import Hide from "./components/Hide.vue";
 
 #app {
   margin: 2rem;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  right: 2rem;
+}
+a {
+  display: block;
+  color: white;
 }
 </style>

@@ -19,12 +19,20 @@ onMounted(() => {
 </script>
 
 <template>
-  <img :src="img" v-if="img" alt="" />
-  <p v-else="img">Loading image</p>
-  <button @click="changeImage" :disabled="disabled">Change Image</button>
+  <div class="card">
+    <img :src="img" v-if="img" alt="" />
+    <p v-else="img">Loading image</p>
+    <button @click="changeImage" :disabled="disabled">Change Image</button>
+  </div>
 </template>
 
 <style scoped>
+.card {
+  display: inline-block;
+  background-color: #202020;
+  padding: 2rem;
+  border-radius: 1rem;
+}
 img {
   width: 28rem;
 }

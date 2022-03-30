@@ -20,6 +20,7 @@ onMounted(() => {
 
 <template>
   <img :src="img" v-if="img" alt="" />
+  <p v-else="img">Loading image</p>
   <button @click="changeImage" :disabled="disabled">Change Image</button>
 </template>
 

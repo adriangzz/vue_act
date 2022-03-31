@@ -13,6 +13,7 @@ const name = ref("");
 <style scoped>
 input {
   margin-top: 2rem;
+  display: block;
 }
 
 p {
